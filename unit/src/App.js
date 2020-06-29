@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.less';
+import '@/App.less';
+import { DatePicker } from 'antd';
 
 function App() {
   return (
     <div className="App">
-      app
+        <DatePicker></DatePicker>
+        <DatePicker></DatePicker>
+        <DatePicker></DatePicker>
     </div>
   );
 }
